@@ -1,10 +1,12 @@
 import placeHolder from "/meloncat-codec.png"
 import sageCodec from "/sage-codec.png"
+import Voicebar from "./Voicebar"
 import { motion } from "framer-motion"
 
 export default function Codec() {
     return (
         <div>
+            <Voicebar />
             <div className="absolute font-pressstart text-codecOff text-[2rem] translate-x-120 -translate-y-0.5">{'PTT'}</div>
             <div className="absolute font-pressstart text-codecOff text-[2rem] translate-x-107 translate-y-76">{'MEMORY'}</div>
             {/*left portrait*/}

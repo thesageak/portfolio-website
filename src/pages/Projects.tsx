@@ -5,7 +5,7 @@ const projects = [
     {
         name: "This Website",
         description: "A personal portfolio that shares a bit about me and showcases my projects, skills, and experience.",
-        github: "",
+        github: "https://github.com/thesageak/portfolio-website",
         demo: ""
     },
     {
