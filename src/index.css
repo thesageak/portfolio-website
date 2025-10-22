@@ -8,13 +8,19 @@
   --font-pressstart: "Press Start 2P", san-serif;
 }
 
+@font-face {
+  font-family: 'DS-Digital';
+  src: url('./assets/fonts/DS-DIGI.TTF') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
 .portrait-glow {
     width: 211px;
     height: 364px;
     background-color: #fff;
     box-shadow:
     0px 0px 20px 7px #33DE8D;
-
 }
 
 /* html, body {

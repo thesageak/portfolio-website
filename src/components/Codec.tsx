@@ -6,6 +6,11 @@ import { motion } from "framer-motion"
 export default function Codec() {
     return (
         <div>
+            <div>
+                <div className="absolute text-codecOff text-[4.5rem] translate-x-117 translate-y-40" style={{ fontFamily: 'DS-Digital',  fontVariantNumeric: 'tabular-nums' }}>
+                    88<span className="text-[5rem]">8.88</span>
+                </div>
+            </div>
             <Voicebar />
             <div className="absolute font-pressstart text-codecOff text-[2rem] translate-x-120 -translate-y-0.5">{'PTT'}</div>
             <div className="absolute font-pressstart text-codecOff text-[2rem] translate-x-107 translate-y-76">{'MEMORY'}</div>
@@ -14,15 +19,15 @@ export default function Codec() {
                 <motion.div
                     className="absolute inset-0 w-[211px] h-[364px] bg-white"
                     initial={{ scaleY: 0 }}
-                    animate={{ scaleY: [0, 0.2, 0, 0.1, 0, 1], opacity:[1,1,1,0]}}
+                    animate={{ scaleY: [0, 0.2, 0, 0.1, 0, 1], opacity: [1, 1, 1, 0] }}
                     transition={{ duration: 0.5 }}
                 />
                 <motion.img
                     className="portrait-glow"
                     src={placeHolder}
-                    initial={{scaleY:0}}
-                    animate={{scaleY:1}}
-                    transition={{delay: 0.3, duration: 0.2 }}
+                    initial={{ scaleY: 0 }}
+                    animate={{ scaleY: 1 }}
+                    transition={{ delay: 0.3, duration: 0.2 }}
                 />
             </div>
 
@@ -31,15 +36,15 @@ export default function Codec() {
                 <motion.div
                     className="absolute inset-0 w-[211px] h-[364px] bg-white"
                     initial={{ scaleY: 0 }}
-                    animate={{ scaleY: [0, 0.2, 0, 0.1, 0, 1], opacity:[1,1,1,0]}}
+                    animate={{ scaleY: [0, 0.2, 0, 0.1, 0, 1], opacity: [1, 1, 1, 0] }}
                     transition={{ duration: 0.5 }}
                 />
                 <motion.img
-                    className = "portrait-glow"
+                    className="portrait-glow"
                     src={sageCodec}
-                    initial={{scaleY:0}}
-                    animate={{scaleY:1}}
-                    transition={{delay: 0.3, duration: 0.2 }}
+                    initial={{ scaleY: 0 }}
+                    animate={{ scaleY: 1 }}
+                    transition={{ delay: 0.3, duration: 0.2 }}
                 />
             </div>
 
