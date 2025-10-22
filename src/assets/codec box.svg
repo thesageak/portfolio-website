@@ -1,0 +1,33 @@
+<svg width="1048" height="346" viewBox="0 0 1048 346" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="codec box">
+<g id="right">
+<path id="Vector 1" d="M1047.13 2L651 2" stroke="#273935" stroke-width="3"/>
+<path id="Vector 2" d="M1045.62 3V344H651" stroke="#273935" stroke-width="3"/>
+</g>
+<g id="left">
+<path id="Vector 1_2" d="M0 2L396.129 2" stroke="#273935" stroke-width="3"/>
+<path id="Vector 2_2" d="M1.50427 3V344H396.129" stroke="#273935" stroke-width="3"/>
+</g>
+<g id="main">
+<rect id="boxwithnumbers" x="370.5" y="75.5" width="309" height="186" fill="#273935" stroke="#273935"/>
+<rect id="ptt" x="404.5" y="0.5" width="238" height="39" fill="#273935" stroke="#273935"/>
+<rect id="memory" x="404.5" y="305.5" width="238" height="39" fill="#273935" stroke="#273935"/>
+<line id="Line 6" x1="258" y1="33.5" x2="396" y2="33.5" stroke="#273935" stroke-width="3"/>
+<line id="Line 8" x1="258" y1="312.5" x2="396" y2="312.5" stroke="#273935" stroke-width="3"/>
+<line id="Line 9" x1="651" y1="312.5" x2="789" y2="312.5" stroke="#273935" stroke-width="3"/>
+<line id="Line 7" x1="651" y1="33.5" x2="789" y2="33.5" stroke="#273935" stroke-width="3"/>
+<g id="weird line thing">
+<rect id="Rectangle 107" x="352.5" y="64.5" width="19" height="8" fill="#273935" stroke="#273935"/>
+<rect id="Rectangle 108" x="675.5" y="64.5" width="19" height="8" fill="#273935" stroke="#273935"/>
+<line id="Line 10" x1="370" y1="65.5" x2="675" y2="65.5" stroke="#273935" stroke-width="3"/>
+</g>
+<g id="weird line thing_2">
+<rect id="Rectangle 107_2" x="0.5" y="-0.5" width="19" height="8" transform="matrix(1 0 0 -1 352 273)" fill="#273935" stroke="#273935"/>
+<rect id="Rectangle 108_2" x="0.5" y="-0.5" width="19" height="8" transform="matrix(1 0 0 -1 675 273)" fill="#273935" stroke="#273935"/>
+<line id="Line 10_2" y1="-1.5" x2="305" y2="-1.5" transform="matrix(1 0 0 -1 370 271)" stroke="#273935" stroke-width="3"/>
+</g>
+<rect id="Rectangle 109" x="253.5" y="146.5" width="93" height="41" fill="#273935" stroke="#273935"/>
+<rect id="Rectangle 110" x="699.5" y="146.5" width="93" height="41" fill="#273935" stroke="#273935"/>
+</g>
+</g>
+</svg>

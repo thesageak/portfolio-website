@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-codec: #74ce9c;
+  --color-codecDark: #121617;
+  --color-codecOff: #2A413B;
+  --font-pressstart: "Press Start 2P", san-serif;
+}
+
+.portrait-glow {
+    width: 211px;
+    height: 364px;
+    background-color: #fff;
+    box-shadow:
+    0px 0px 20px 7px #33DE8D;
+
+}
+
+/* html, body {
+  overflow: hidden;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+  background-color: black;
+}
